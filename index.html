@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta information -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Title -->
+  <title>Frontend Mentor Inspired | Data Insights homepage</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <!-- Logo -->
+    <a class="logo" href="#">
+      <img src="./assets/images/logo.svg" alt="News homepage">
+    </a>
+    <!-- Mobile menu button -->
+    <div class="menu">
+      <img src="./assets/images/icon-menu.svg" alt="">
+    </div>
+    <!-- Close menu button -->
+    <div class="close hide">
+      <img src="./assets/images/icon-menu-close.svg" alt="">
+    </div>
+    <!-- Navigation links -->
+    <ul class="hide">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#new">New</a></li>
+      <li><a href="#popular">Popular</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Categories</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <!-- Home section with hero image -->
+    <section id="home" class="show">
+      <picture>
+        <!-- Responsive image -->
+        <source media="(min-width: 376px)" srcset="./assets/images/Untitled.png">
+        <img src="./assets/images/heroImage.png" alt="Future of Web 3.0">
+      </picture>
+      <!-- News headline -->
+      <div class="news">
+        <h1>Data Insights: Future Revolution or Evolution?</h1>
+        <div class="article">
+          <p>Are we witnessing a genuine revolution, or is it a measured evolution? Join us in exploring the transformation that data insights bring, and question if they live up to their promise of empowerment.</p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- New articles section -->
+    <section id="new" class="new">
+      <h2>New</h2>
+      <div class="new-article">
+        <a href="#">Hydrogen Usage Trends</a>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      <hr>
+      <div class="new-article">
+        <a href="#">AI's Artistic Impact</a>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+      <hr>
+      <div class="new-article">
+        <a href="#">VC Funding Shifts</a>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </section>
+
+    <!-- Popular articles section -->
+    <section id="popular" class="popular show">
+      <div class="popular-article">
+        <img src="./assets/images/top.png" alt="Reviving Retro PCs">
+        <div class="content">
+          <h3>01</h3>
+          <a href="#">The Art of Data Visualization</a>
+          <p>Explore the techniques behind crafting compelling visual representations of data.</p>
+        </div>
+      </div>
+      <div class="popular-article">
+        <img src="./assets/images/ml.png" alt="Machine Learning" />
+        <div class="content">
+          <h3>02</h3>
+          <a href="#">Machine Learning: Beyond the Hype</a>
+          <p>Uncover the real-world impact and challenges of machine learning algorithms.</p>
+        </div>
+      </div>
+      <div class="popular-article">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="The Growth of Gaming">
+        <div class="content">
+          <h3>03</h3>
+          <a href="#">The Growth of Gaming</a>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+  <div id="footer">
+    <ul>
+      <li id="f"><a href="https://linktr.ee/itspragya">Made by Pragya • Linktree 👋</a></li>
+      
+    </ul>
+  </div>
+
+  </div>
+
+
+  <!-- JavaScript -->
+  <script src="./script.js"></script>
+</body>
+</html>
