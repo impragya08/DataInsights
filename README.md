@@ -5,11 +5,11 @@
 Explore data-driven decisions and trends with Webwise Data Insights. Gain insights through visualizations and analyses.
 
 ## Demo
+Experience DataInsights Landing Page in action by visiting our live demo:
 
-Experience the DataInsights Landing Page in action by visiting our live demo:
+Live Link- https://data-insights-two.vercel.app/
 
-
-
+![image](https://github.com/impragya08/DataInsights/assets/84717393/70afb957-2a38-46f2-ac60-64c02fdb410f)
 
 
 ## Frontend Mentor Challenge
